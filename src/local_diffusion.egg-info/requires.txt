@@ -1,0 +1,13 @@
+torch>=2.0
+torchvision
+numpy
+pillow
+tqdm
+wandb
+diffusers
+omegaconf
+faiss-cpu
+
+[dev]
+
+[test]

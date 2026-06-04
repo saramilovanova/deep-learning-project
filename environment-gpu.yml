@@ -1,0 +1,21 @@
+name: locality-diffusion-gpu
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.1
+  - numpy
+  - pillow
+  - tqdm
+  - wandb
+  - diffusers
+  - omegaconf
+  - faiss-cpu
+  - matplotlib
+  - jupyterlab
+  - ipykernel

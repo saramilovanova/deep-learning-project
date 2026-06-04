@@ -1,0 +1,17 @@
+# Pip equivalent of environment-gpu.yml for a venv-based setup.
+# Install with a CUDA 12.1-compatible PyTorch wheel index.
+
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+torch>=2.0
+torchvision
+numpy
+pillow
+tqdm
+wandb
+diffusers
+omegaconf
+faiss-cpu
+matplotlib
+jupyterlab
+ipykernel

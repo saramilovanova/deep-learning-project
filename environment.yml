@@ -1,0 +1,22 @@
+name: locality-diffusion
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - cpuonly
+  - pytorch>=2.0
+  - torchvision
+  - numpy
+  - pillow
+  - tqdm
+  - wandb
+  - diffusers
+  - omegaconf
+  - faiss-cpu
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+  - pip:
+      - -e .

@@ -1,0 +1,29 @@
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and models
+data/
+datasets/
+models/
+runs/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.index
+*.npz
+*.npy
+*.tar.gz
+*.zip
+
+# HuggingFace cache
+.cache/
