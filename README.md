@@ -1,6 +1,6 @@
 # Locality in Diffusion Models
 
-This repository contains the code, configurations, and analysis notebooks for a project investigating **locality properties in diffusion models**.
+This repository contains the code, configurations, and analysis notebooks for the *Deep Learning project* investigating **locality properties in diffusion models**.
 
 The project includes implementations and experiments involving:
 
@@ -43,10 +43,10 @@ src/                            Core library code (models, data, utilities)
 download_baseline_weights.py    Download baseline model weights
 generate.py                     Sampling and image generation script
 
-generate_test.sbatch            Example SLURM generation job
+generate_test.sbatch            SLURM generation job for a test experiment
 run_all_baselines_array.sbatch  Baseline experiment array job
 run_all_baselines.sh            Baseline experiment launcher
-run_nearest_dataset_array.sbatch Nearest-dataset experiment array job
+run_nearest_dataset_array.sbatch Nearest-dataset test experiment array job
 
 environment.yml                 Conda environment
 environment-gpu.yml             GPU-specific Conda environment
@@ -106,18 +106,3 @@ The `notebooks/` directory contains Jupyter notebooks for:
 * Comparing locality metrics
 * Summarizing experimental results
 
-Notebook outputs have been cleared before publication to keep the repository size small.
-
----
-
-# Reproducibility
-
-To fully reproduce the experiments:
-
-1. Clone this repository.
-2. Download the external project archive from Hugging Face.
-3. Extract the archive into the repository root.
-4. Create the required Python environment.
-5. Run the provided experiment scripts or SLURM jobs.
-
-All configurations used for the reported experiments are included in the `configs/` directory.
