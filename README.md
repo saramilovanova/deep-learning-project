@@ -1,6 +1,6 @@
 # Locality in Diffusion Models
 
-This repository contains the code, configurations, and analysis notebooks for the *Deep Learning project* investigating **locality properties in diffusion models**.
+This repository contains the code, configurations, and analysis notebooks for the *Deep Learning project* investigating **locality properties in diffusion models**. This project is a reimplementation of the NeurIPS 2025 paper, "Locality in Image Diffusion Models Emerges from Data Statistics", by Artem Lukoianov et al. The goal is to reproduce the PCA-locality analytical diffusion model and compare it against the Wiener filter and optimal denoiser baselines.
 
 The project includes implementations and experiments involving:
 
@@ -29,7 +29,7 @@ The archive contains:
 * Generated samples
 * Intermediate artifacts
 
-Together with the code in this repository, these files provide everything required to reproduce the experimental pipeline and reported results.
+Together with the code available in this GitHub repository, these files provide everything required to reproduce the experiments and reported results.
 
 ---
 
